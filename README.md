@@ -1,5 +1,3 @@
-# Terminal-16
-
 ​Project: Mobile-Native Android Compiler
 ​1. Executive Summary
 ​This project aims to re-engineer and re-package the essential components of the Android SDK and Gradle toolchain to run natively on the Android operating system, enabling on-device compilation of .apk files without the need for a desktop computer. The primary challenge is adapting a toolchain designed for desktop OS environments (Windows, macOS, Linux) to the sandboxed, app-level context of Android.
