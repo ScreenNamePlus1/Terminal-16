@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { 
   View, 
@@ -16,18 +15,28 @@ const { CompilerModule } = NativeModules;
 const App = () => {
   const [code, setCode] = useState('');
   const [output, setOutput] = useState('Welcome to Terminal-16!');
+  const [outputStatus, setOutputStatus] = useState('info'); // 'info', 'success', or 'error'
 
   const handleCompilePress = async () => {
     if (!code) {
       setOutput('Please enter some code to compile.');
+      setOutputStatus('error');
       return;
     }
     setOutput('Compiling...');
+    setOutputStatus('info');
     try {
-      const result = await CompilerModule.compileCode(code);
-      setOutput(result);
+      const response = await CompilerModule.compileCode(code);
+      if (response.status === 'success') {
+        setOutput(response.message);
+        setOutputStatus('success');
+      } else {
+        setOutput(`Error: ${response.message}`);
+        setOutputStatus('error');
+      }
     } catch (error) {
       setOutput(`Compilation failed: ${error.message}`);
+      setOutputStatus('error');
     }
   };
 
@@ -51,7 +60,15 @@ const App = () => {
           color="#00FF00"
         />
         <ScrollView style={styles.outputArea}>
-          <Text style={styles.outputText}>{output}</Text>
+          <Text 
+            style={[
+              styles.outputText, 
+              outputStatus === 'error' && styles.errorText,
+              outputStatus === 'success' && styles.successText,
+            ]}
+          >
+            {output}
+          </Text>
         </ScrollView>
       </View>
     </SafeAreaView>
@@ -95,6 +112,13 @@ const styles = StyleSheet.create({
     color: '#00FF00',
     fontSize: 12,
     fontFamily: 'monospace',
+  },
+  errorText: {
+    color: '#FF0000',
+    fontWeight: 'bold',
+  },
+  successText: {
+    color: '#32CD32',
   },
 });
 
