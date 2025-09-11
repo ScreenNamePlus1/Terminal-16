@@ -1,4 +1,6 @@
 # To Continue. 
+## git checkout f6d308046e8759c8545f127ab8ab89ce53f378b5 -- Résumé.md
+
 
 ###Required Binaries for Android Toolchain
 ​To complete the setup of a command-line Android development environment on an arm64-v8a device, you will need to acquire the following two binaries:
