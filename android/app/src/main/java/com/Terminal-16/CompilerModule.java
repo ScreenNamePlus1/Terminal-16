@@ -25,20 +25,18 @@ public class CompilerModule extends ReactContextBaseJavaModule {
         
         WritableMap response = Arguments.createMap();
 
-        try {
-            // Placeholder for the actual compiler logic
-            // We'll simulate a successful compilation for this example.
-            
-            // On success:
+        // This is a simplified, functional simulation.
+        // In the real app, this logic would call the actual compiler binary.
+        if (code.contains("error")) {
+            // Simulate a compilation error
+            response.putString("status", "error");
+            response.putString("message", "Syntax error: a keyword was misspelled. Please check your code.");
+        } else {
+            // Simulate a successful compilation
             response.putString("status", "success");
             response.putString("message", "Compilation successful! Your program is ready to run.");
-            promise.resolve(response);
-
-        } catch (Exception e) {
-            // On failure:
-            response.putString("status", "error");
-            response.putString("message", e.getMessage());
-            promise.resolve(response);
         }
+        
+        promise.resolve(response);
     }
 }
