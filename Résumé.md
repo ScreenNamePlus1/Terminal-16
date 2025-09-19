@@ -33,8 +33,10 @@ This will ensure they are in the correct location for the build process.
 
 ### Images of my awards from the repository
 
-! [AA file named B_IMG_1758265531802] 
+---
 
+- ! [A file named B_IMG_1758265531802] 
+(https://github.com/ScreenNamePlus1/Terminal-16/blob/main/FB_IMG_1758265531802.jpg) 
 
 ---
 
