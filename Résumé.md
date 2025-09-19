@@ -28,3 +28,39 @@ Since these tools are typically distributed as part of a larger development envi
 ​Once you have located and downloaded the binaries, you should place both the **aapt2** and **dx** files into the **build-tools/34.0.0/* directory that you have already created for other tools. 
 
 This will ensure they are in the correct location for the build process.
+
+---
+
+### Images from the repository
+
+- ![A file named FB_IMG_1758164485172](https://raw.githubusercontent.com/ScreenNamePlus1/Terminal-16/main/FB_IMG_1758164485172.jpg)
+
+---
+
+- ![A file named FB_IMG_1758164494349](https://raw.githubusercontent.com/ScreenNamePlus1/Terminal-16/main/FB_IMG_1758164494349.jpg)
+
+---
+
+- ![A file named FB_IMG_1758164502117](https://raw.githubusercontent.com/ScreenNamePlus1/Terminal-16/main/FB_IMG_1758164502117.jpg)
+
+---
+
+- ![A file named FB_IMG_1758164510546](https://raw.githubusercontent.com/ScreenNamePlus1/Terminal-16/main/FB_IMG_1758164510546.jpg)
+
+---
+
+- ![A file named FB_IMG_1758164519370](https://raw.githubusercontent.com/ScreenNamePlus1/Terminal-16/main/FB_IMG_1758164519370.jpg)
+
+---
+
+- ![A file named FB_IMG_1758164525842](https://raw.githubusercontent.com/ScreenNamePlus1/Terminal-16/main/FB_IMG_1758164525842.jpg)
+
+---
+
+- ![A file named FB_IMG_1758164584564](https://raw.githubusercontent.com/ScreenNamePlus1/Terminal-16/main/FB_IMG_1758164584564.jpg)
+
+---
+
+- ![A file named FB_IMG_1758164603947](https://raw.githubusercontent.com/ScreenNamePlus1/Terminal-16/main/FB_IMG_1758164603947.jpg)
+
+---
