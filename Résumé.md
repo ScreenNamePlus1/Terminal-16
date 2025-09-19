@@ -31,7 +31,7 @@ This will ensure they are in the correct location for the build process.
 
 ---
 
-### Images from the repository
+### Images of my awards from the repository
 
 - ![A file named FB_IMG_1758164485172](https://raw.githubusercontent.com/ScreenNamePlus1/Terminal-16/main/FB_IMG_1758164485172.jpg)
 
