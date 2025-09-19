@@ -59,10 +59,12 @@ This will ensure they are in the correct location for the build process.
 
 ---
 
-- ![A file named FB_IMG_1758164584564](https://raw.githubusercontent.com/ScreenNamePlus1/Terminal-16/main/FB_IMG_1758164584564.jpg)
-
----
-
 - ![A file named FB_IMG_1758164603947](https://raw.githubusercontent.com/ScreenNamePlus1/Terminal-16/main/FB_IMG_1758164603947.jpg)
 
 ---
+
+### My First Certificate. These are in chronological order in which I obtained them. I just had to retake the tests several times because Programming hub is a ***cunt.***
+
+---
+
+- ![A file named FB_IMG_1758164584564](https://raw.githubusercontent.com/ScreenNamePlus1/Terminal-16/main/FB_IMG_1758164584564.jpg)
